@@ -1,0 +1,407 @@
+SyntaxErrorNotification: Nothing more expected -><html><body>You are being <a href="https://raw.githubusercontent.com/garduino/Cuis-Smalltalk-rST/master/rST.pck.st">redirected</a>.</body></html>
+13 July 2021 6:01:33.767742 am
+
+VM: unix - Open Smalltalk Cog[Spur] VM [CoInterpreterPrimitives VMMaker.oscog-nice.2715]
+Image: Cuis 5.0 [latest update: #4619]
+
+Parser>>notify:at:
+	Receiver: a Parser
+	Arguments and temporary variables: 
+		string: 	'Nothing more expected'
+		location: 	1
+		adjustedLocation: 	1
+	Receiver's instance variables: 
+		source: 	a ReadStream '<html><body>You are being <a href="https://raw.githubuser[..]
+		mark: 	2
+		hereChar: 	$>
+		aheadChar: 	$<
+		token: 	'html'
+		tokenType: 	#word
+		currentComment: 	nil
+		buffer: 	a WriteStream 'html'
+		typeTable: 	#(#xIllegal #xIllegal #xIllegal #xIllegal #xIllegal #xIllegal #xIlle[..]
+		isForTokenization: 	false
+		sentInLiterals: 	a Set()
+		here: 	#<
+		hereType: 	#binary
+		hereMark: 	1
+		hereEnd: 	1
+		prevMark: 	1
+		prevEnd: 	nil
+		encoder: 	{an EncoderForV3PlusClosures}
+		requestor: 	nil
+		parseNode: 	{[ ^ nil. ]}
+		failBlock: 	[closure] in Compiler>>translate:noPattern:doIt:ifFail:
+		requestorOffset: 	0
+		tempsMark: 	1
+		doitFlag: 	true
+		properties: 	an AdditionalMethodState
+		category: 	nil
+
+Parser>>expected:
+	Receiver: a Parser
+	Arguments and temporary variables: 
+		aString: 	'Nothing more'
+	Receiver's instance variables: 
+		source: 	a ReadStream '<html><body>You are being <a href="https://raw.githubuser[..]
+		mark: 	2
+		hereChar: 	$>
+		aheadChar: 	$<
+		token: 	'html'
+		tokenType: 	#word
+		currentComment: 	nil
+		buffer: 	a WriteStream 'html'
+		typeTable: 	#(#xIllegal #xIllegal #xIllegal #xIllegal #xIllegal #xIllegal #xIlle[..]
+		isForTokenization: 	false
+		sentInLiterals: 	a Set()
+		here: 	#<
+		hereType: 	#binary
+		hereMark: 	1
+		hereEnd: 	1
+		prevMark: 	1
+		prevEnd: 	nil
+		encoder: 	{an EncoderForV3PlusClosures}
+		requestor: 	nil
+		parseNode: 	{[ ^ nil. ]}
+		failBlock: 	[closure] in Compiler>>translate:noPattern:doIt:ifFail:
+		requestorOffset: 	0
+		tempsMark: 	1
+		doitFlag: 	true
+		properties: 	an AdditionalMethodState
+		category: 	nil
+
+Parser>>method:doIt:context:
+	Receiver: a Parser
+	Arguments and temporary variables: 
+		noPattern: 	true
+		doIt: 	true
+		ctxt: 	nil
+		sap: 	#(#DoIt #() 1 nil)
+		block: 	{[ ^ nil. ]}
+		primitives: 	0
+		tempsDeclarationNode: 	{| |}
+		messageComment: 	nil
+		methodNode: 	nil
+	Receiver's instance variables: 
+		source: 	a ReadStream '<html><body>You are being <a href="https://raw.githubuser[..]
+		mark: 	2
+		hereChar: 	$>
+		aheadChar: 	$<
+		token: 	'html'
+		tokenType: 	#word
+		currentComment: 	nil
+		buffer: 	a WriteStream 'html'
+		typeTable: 	#(#xIllegal #xIllegal #xIllegal #xIllegal #xIllegal #xIllegal #xIlle[..]
+		isForTokenization: 	false
+		sentInLiterals: 	a Set()
+		here: 	#<
+		hereType: 	#binary
+		hereMark: 	1
+		hereEnd: 	1
+		prevMark: 	1
+		prevEnd: 	nil
+		encoder: 	{an EncoderForV3PlusClosures}
+		requestor: 	nil
+		parseNode: 	{[ ^ nil. ]}
+		failBlock: 	[closure] in Compiler>>translate:noPattern:doIt:ifFail:
+		requestorOffset: 	0
+		tempsMark: 	1
+		doitFlag: 	true
+		properties: 	an AdditionalMethodState
+		category: 	nil
+
+[] in Parser>>parse:class:category:noPattern:doIt:context:notifying:ifFail:
+	Receiver: a Parser
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		source: 	a ReadStream '<html><body>You are being <a href="https://raw.githubuser[..]
+		mark: 	2
+		hereChar: 	$>
+		aheadChar: 	$<
+		token: 	'html'
+		tokenType: 	#word
+		currentComment: 	nil
+		buffer: 	a WriteStream 'html'
+		typeTable: 	#(#xIllegal #xIllegal #xIllegal #xIllegal #xIllegal #xIllegal #xIlle[..]
+		isForTokenization: 	false
+		sentInLiterals: 	a Set()
+		here: 	#<
+		hereType: 	#binary
+		hereMark: 	1
+		hereEnd: 	1
+		prevMark: 	1
+		prevEnd: 	nil
+		encoder: 	{an EncoderForV3PlusClosures}
+		requestor: 	nil
+		parseNode: 	{[ ^ nil. ]}
+		failBlock: 	[closure] in Compiler>>translate:noPattern:doIt:ifFail:
+		requestorOffset: 	0
+		tempsMark: 	1
+		doitFlag: 	true
+		properties: 	an AdditionalMethodState
+		category: 	nil
+
+BlockClosure>>on:do:
+	Receiver: [closure] in Parser>>parse:class:category:noPattern:doIt:context:notifying:ifFail:
+	Arguments and temporary variables: 
+		exception: 	ReparseAfterSourceEditing
+		handlerAction: 	[closure] in Parser>>parse:class:category:noPattern:doIt:context[..]
+	Receiver's instance variables: 
+		outerContext: 	Parser>>parse:class:category:noPattern:doIt:context:notifying:ifF[..]
+		startpc: 	308
+		numArgs: 	0
+
+Parser>>parse:class:category:noPattern:doIt:context:notifying:ifFail:
+	Receiver: a Parser
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		source: 	a ReadStream '<html><body>You are being <a href="https://raw.githubuser[..]
+		mark: 	2
+		hereChar: 	$>
+		aheadChar: 	$<
+		token: 	'html'
+		tokenType: 	#word
+		currentComment: 	nil
+		buffer: 	a WriteStream 'html'
+		typeTable: 	#(#xIllegal #xIllegal #xIllegal #xIllegal #xIllegal #xIllegal #xIlle[..]
+		isForTokenization: 	false
+		sentInLiterals: 	a Set()
+		here: 	#<
+		hereType: 	#binary
+		hereMark: 	1
+		hereEnd: 	1
+		prevMark: 	1
+		prevEnd: 	nil
+		encoder: 	{an EncoderForV3PlusClosures}
+		requestor: 	nil
+		parseNode: 	{[ ^ nil. ]}
+		failBlock: 	[closure] in Compiler>>translate:noPattern:doIt:ifFail:
+		requestorOffset: 	0
+		tempsMark: 	1
+		doitFlag: 	true
+		properties: 	an AdditionalMethodState
+		category: 	nil
+
+Compiler>>translate:noPattern:doIt:ifFail:
+	Receiver: a Compiler
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream '<html><body>You are being <a href="https://raw.githubuse[..]
+		noPattern: 	true
+		doIt: 	true
+		failBlock: 	[closure] in Compiler>>evaluate:in:to:notifying:ifFail:logged:profil[..]
+	Receiver's instance variables: 
+		sourceStream: 	a ReadStream '<html><body>You are being <a href="https://raw.gith[..]
+		requestor: 	nil
+		class: 	UndefinedObject
+		category: 	nil
+		context: 	nil
+		parser: 	a Parser
+
+Compiler>>translate:noPattern:ifFail:
+	Receiver: a Compiler
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream '<html><body>You are being <a href="https://raw.githubuse[..]
+		noPattern: 	true
+		failBlock: 	[closure] in Compiler>>evaluate:in:to:notifying:ifFail:logged:profil[..]
+	Receiver's instance variables: 
+		sourceStream: 	a ReadStream '<html><body>You are being <a href="https://raw.gith[..]
+		requestor: 	nil
+		class: 	UndefinedObject
+		category: 	nil
+		context: 	nil
+		parser: 	a Parser
+
+Compiler>>compileNoPattern:in:context:notifying:ifFail:
+	Receiver: a Compiler
+	Arguments and temporary variables: 
+		textOrStream: 	'<html><body>You are being <a href="https://raw.githubusercontent[..]
+		aClass: 	UndefinedObject
+		aContext: 	nil
+		aRequestor: 	nil
+		failBlock: 	[closure] in Compiler>>evaluate:in:to:notifying:ifFail:logged:profil[..]
+	Receiver's instance variables: 
+		sourceStream: 	a ReadStream '<html><body>You are being <a href="https://raw.gith[..]
+		requestor: 	nil
+		class: 	UndefinedObject
+		category: 	nil
+		context: 	nil
+		parser: 	a Parser
+
+Compiler>>evaluate:in:to:notifying:ifFail:logged:profiled:
+	Receiver: a Compiler
+	Arguments and temporary variables: 
+		textOrStream: 	'<html><body>You are being <a href="https://raw.githubusercontent[..]
+		aContext: 	nil
+		aReceiver: 	nil
+		aRequestor: 	nil
+		failBlock: 	[closure] in Compiler class>>evaluate:for:notifying:logged:
+		doLog: 	true
+		doProfile: 	false
+		methodNode: 	nil
+		method: 	nil
+		c: 	nil
+	Receiver's instance variables: 
+		sourceStream: 	a ReadStream '<html><body>You are being <a href="https://raw.gith[..]
+		requestor: 	nil
+		class: 	UndefinedObject
+		category: 	nil
+		context: 	nil
+		parser: 	a Parser
+
+Compiler class>>evaluate:for:notifying:logged:
+	Receiver: Compiler
+	Arguments and temporary variables: 
+		textOrString: 	'<html><body>You are being <a href="https://raw.githubusercontent[..]
+		anObject: 	nil
+		aRequestor: 	nil
+		logFlag: 	true
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#compile:in:classified:notifying:ifFail:->(Compi[..]
+		format: 	65542
+		instanceVariables: 	#('sourceStream' 'requestor' 'class' 'category' 'context' 'p[..]
+		organization: 	('public access' compile:in:classified:notifying:ifFail: compile:[..]
+		subclasses: 	#(OMeta2Compiler)
+		name: 	#Compiler
+		classPool: 	nil
+		sharedPools: 	nil
+
+Compiler class>>evaluate:for:logged:
+	Receiver: Compiler
+	Arguments and temporary variables: 
+		textOrString: 	'<html><body>You are being <a href="https://raw.githubusercontent[..]
+		anObject: 	nil
+		logFlag: 	true
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#compile:in:classified:notifying:ifFail:->(Compi[..]
+		format: 	65542
+		instanceVariables: 	#('sourceStream' 'requestor' 'class' 'category' 'context' 'p[..]
+		organization: 	('public access' compile:in:classified:notifying:ifFail: compile:[..]
+		subclasses: 	#(OMeta2Compiler)
+		name: 	#Compiler
+		classPool: 	nil
+		sharedPools: 	nil
+
+Compiler class>>evaluate:logged:
+	Receiver: Compiler
+	Arguments and temporary variables: 
+		textOrString: 	'<html><body>You are being <a href="https://raw.githubusercontent[..]
+		logFlag: 	true
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#compile:in:classified:notifying:ifFail:->(Compi[..]
+		format: 	65542
+		instanceVariables: 	#('sourceStream' 'requestor' 'class' 'category' 'context' 'p[..]
+		organization: 	('public access' compile:in:classified:notifying:ifFail: compile:[..]
+		subclasses: 	#(OMeta2Compiler)
+		name: 	#Compiler
+		classPool: 	nil
+		sharedPools: 	nil
+
+[] in StandardFileStream(PositionableStream)>>compileNextChunkWhenDoesNotStartWithExclamationMark
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt3/rst.st'
+	Arguments and temporary variables: 
+		chunk: 	'<html><body>You are being <a href="https://raw.githubusercontent.com/ga[..]
+	Receiver's instance variables: 
+
+
+BlockClosure>>on:do:
+	Receiver: [closure] in StandardFileStream(PositionableStream)>>compileNextChunkWhenDoesNotStartWithE[..]
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[closure] in StandardFileStream(PositionableStream)>>evaluate:pr[..]
+	Receiver's instance variables: 
+		outerContext: 	StandardFileStream(PositionableStream)>>compileNextChunkWhenDoesN[..]
+		startpc: 	78
+		numArgs: 	0
+
+StandardFileStream(PositionableStream)>>evaluate:printingErrorWith:
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt3/rst.st'
+	Arguments and temporary variables: 
+		aBlock: 	[closure] in StandardFileStream(PositionableStream)>>compileNextChunkWh[..]
+		chunk: 	'<html><body>You are being <a href="https://raw.githubusercontent.com/ga[..]
+	Receiver's instance variables: 
+
+
+StandardFileStream(PositionableStream)>>compileNextChunkWhenDoesNotStartWithExclamationMark
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt3/rst.st'
+	Arguments and temporary variables: 
+		chunk: 	'<html><body>You are being <a href="https://raw.githubusercontent.com/ga[..]
+	Receiver's instance variables: 
+
+
+StandardFileStream(PositionableStream)>>compileNextChunk
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt3/rst.st'
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+
+
+[] in StandardFileStream(PositionableStream)>>compileNextChunkHandlingExceptions
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt3/rst.st'
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+
+
+
+--- The full stack ---
+Parser>>notify:at:
+Parser>>expected:
+Parser>>method:doIt:context:
+[] in Parser>>parse:class:category:noPattern:doIt:context:notifying:ifFail:
+BlockClosure>>on:do:
+Parser>>parse:class:category:noPattern:doIt:context:notifying:ifFail:
+Compiler>>translate:noPattern:doIt:ifFail:
+Compiler>>translate:noPattern:ifFail:
+Compiler>>compileNoPattern:in:context:notifying:ifFail:
+Compiler>>evaluate:in:to:notifying:ifFail:logged:profiled:
+Compiler class>>evaluate:for:notifying:logged:
+Compiler class>>evaluate:for:logged:
+Compiler class>>evaluate:logged:
+[] in StandardFileStream(PositionableStream)>>compileNextChunkWhenDoesNotStartWithExclamationMark
+BlockClosure>>on:do:
+StandardFileStream(PositionableStream)>>evaluate:printingErrorWith:
+StandardFileStream(PositionableStream)>>compileNextChunkWhenDoesNotStartWithExclamationMark
+StandardFileStream(PositionableStream)>>compileNextChunk
+[] in StandardFileStream(PositionableStream)>>compileNextChunkHandlingExceptions
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+BlockClosure>>on:do:
+StandardFileStream(PositionableStream)>>compileNextChunkHandlingExceptions
+StandardFileStream(PositionableStream)>>fileInInformingTo:
+[] in StandardFileStream(PositionableStream)>>fileInAnnouncing:
+ProgressInitiationException>>defaultAction
+UndefinedObject>>handleSignal:
+ProgressInitiationException(Exception)>>signalIn:
+ProgressInitiationException(Exception)>>signal
+ProgressInitiationException>>display:at:from:to:during:
+ProgressInitiationException class>>display:at:from:to:during:
+String>>displayProgressAt:from:to:during:
+StandardFileStream(PositionableStream)>>fileInAnnouncing:
+StandardFileStream(FileStream)>>fileIn
+[] in ChangeSet class>>fileIn:
+[] in FileEntry>>readStreamDo:
+BlockClosure>>ensure:
+FileEntry>>readStreamDo:
+ChangeSet class>>fileIn:
+SimpleServiceEntry>>performService
+PluggableButtonMorph>>performAction
+PluggableButtonMorph>>mouseButton1Up:localPosition:
+PluggableButtonMorph(Morph)>>processMouseUp:localPosition:
+MouseButtonEvent>>sendEventTo:
+PluggableButtonMorph(Morph)>>handleFocusEvent:
+HandMorph>>startMouseDispatch:
+MouseButtonEvent(MouseEvent)>>startDispatchFrom:
+HandMorph>>startEventDispatch:
+HandMorph>>processEventQueue
+[] in WorldMorph>>doOneCycleNow
+Array(SequenceableCollection)>>do:
+WorldMorph>>handsDo:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+WorldMorph>>mainLoop
+[] in WorldMorph>>runProcess
+[] in BlockClosure>>newProcess

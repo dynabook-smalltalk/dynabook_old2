@@ -1,0 +1,48 @@
+
+
+----STARTUP---- (12 July 2021 12:35:04) as /run/media/grahamkelly/MyDriveLinux/Projects/DbSt3/Cuis5.0-4619.image!
+
+
+----SNAPSHOT----(12 July 2021 12:35:17) Cuis5.0-4619.image priorSource: 13237646!
+
+ClassDescription subclass: #Metaclass
+	instanceVariableNames: 'thisClass environment'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Kernel-Classes'!
+
+!classDefinition: #Metaclass category: #'Kernel-Classes' stamp: 'GDK 7/12/2021 12:36:12'!
+ClassDescription subclass: #Metaclass
+	instanceVariableNames: 'thisClass environment'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Kernel-Classes'!
+
+Class class name!
+
+ProtoObject class superclass!
+
+Metaclass allInstances!
+!Metaclass methodsFor: 'accessing' stamp: 'GDK 7/12/2021 12:37:38'!
+environment
+^environment! !
+!Metaclass methodsFor: 'accessing' stamp: 'GDK 7/12/2021 12:37:43'!
+environment: x
+^environment _ x! !
+!Metaclass methodsFor: 'accessing' stamp: 'GDK 7/12/2021 12:37:58' prior: 50745351!
+environment
+^environment ifNil: [environment _ Smalltalk]! !
+
+----SNAPSHOT----(12 July 2021 12:38:03) Cuis5.0-4619.image priorSource: 13237844!
+
+----End fileIn of /run/media/grahamkelly/MyDriveLinux/Projects/DbSt3/OMeta-Cuis-master (2)/OMeta-Cuis-master/OMeta2Preload.st----!
+
+----End fileIn of /run/media/grahamkelly/MyDriveLinux/Projects/DbSt3/OMeta-Cuis-master (2)/OMeta-Cuis-master/OMeta2.st----!
+
+----SNAPSHOT----(12 July 2021 13:05:58) Cuis5.0-4619.image priorSource: 13238780!
+
+----End fileIn of /run/media/grahamkelly/MyDriveLinux/Projects/DbSt3/OMeta-Cuis-master (2)/OMeta-Cuis-master/OMeta2Extensions.st----!
+
+----SNAPSHOT----(12 July 2021 13:10:47) Cuis5.0-4619.image priorSource: 13377181!
+
+----SNAPSHOT----(12 July 2021 13:46:06) Cuis5.0-4619.image priorSource: 13427008!

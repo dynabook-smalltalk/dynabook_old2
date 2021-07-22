@@ -1,0 +1,26 @@
+====Al processes====
+98%   3805256 Morphic UI
+2%   2848319 Event Tickler
+
+====Process using most CPU====
+98 % 40 (3805256) Morphic UI -  [world]
+FileEntry class(Behavior)>>new
+FileIOAccessor>>entriesIn:
+DirectoryEntry>>initChildren
+DirectoryEntry>>children
+DirectoryEntry>>directories
+DirectoryEntry>>directoryNames
+FileDirectoryWrapper>>contents
+FileDirectoryWrapper>>hasContents
+IndentingListItemMorph>>drawOn:
+BitBltCanvas>>drawCurrentAndSubmorphs
+BitBltCanvas(MorphicCanvas)>>fullDraw:
+[] in [] in BitBltCanvas>>drawCurrentAndSubmorphs
+Array(SequenceableCollection)>>reverseDo:
+InnerHierarchicalListMorph(Morph)>>submorphsReverseDo:
+[] in BitBltCanvas>>drawCurrentAndSubmorphs
+BitBltCanvas(MorphicCanvas)>>clippingByCurrentMorphDo:
+BitBltCanvas>>drawCurrentAndSubmorphs
+BitBltCanvas(MorphicCanvas)>>fullDraw:
+[] in [] in BitBltCanvas>>drawCurrentAndSubmorphs
+Array(SequenceableCollection)>>reverseDo:

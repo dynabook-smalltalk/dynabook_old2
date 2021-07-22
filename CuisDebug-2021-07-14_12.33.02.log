@@ -1,0 +1,342 @@
+MessageNotUnderstood: UndefinedObject>>currentMorphDrawingFails
+14 July 2021 12:33:02.902921 pm
+
+VM: unix - Open Smalltalk Cog[Spur] VM [CoInterpreterPrimitives VMMaker.oscog-nice.2715]
+Image: Cuis 5.0 [latest update: #4619]
+
+UndefinedObject(Object)>>doesNotUnderstand: #currentMorphDrawingFails
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	currentMorphDrawingFails
+		exception: 	MessageNotUnderstood: UndefinedObject>>currentMorphDrawingFails
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+[] in WorldMorph>>displayWorldSafely
+	Receiver:  [world]
+	Arguments and temporary variables: 
+		err: 	'MessageNotUnderstood: UndefinedObject>>updateIsNeeded'
+		rcvr: 	nil
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(System Browser: RSTDialectIndependencySqueak [9] Implementors of b[..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1920@1043
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	Form(1920x1043x-32)
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	nil
+		damageRecorder: 	nil
+		stepList: 	a Heap(StepMessage(#stepAt: -> Inspect: Metaclass: ProtoObject class)[..]
+		lastCycleTime: 	3803718779610
+		alarms: 	a Heap()
+		lastAlarmTime: 	3803718779410
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(200 msecs)
+		pause: 	200
+		lastCycleHadAnyEvent: 	false
+		taskbar: 	a TaskbarMorph(3633414)
+
+BlockClosure>>valueWithPossibleArgument:and:
+	Receiver: [closure] in WorldMorph>>displayWorldSafely
+	Arguments and temporary variables: 
+		anArg: 	'MessageNotUnderstood: UndefinedObject>>updateIsNeeded'
+		secondArg: 	nil
+	Receiver's instance variables: 
+		outerContext: 	WorldMorph>>displayWorldSafely
+		startpc: 	76
+		numArgs: 	2
+
+[] in BlockClosure>>ifError:
+	Receiver: [closure] in WorldMorph>>displayWorldSafely
+	Arguments and temporary variables: 
+		errorHandlerBlock: 	MessageNotUnderstood: UndefinedObject>>updateIsNeeded
+		ex: 	[closure] in WorldMorph>>displayWorldSafely
+	Receiver's instance variables: 
+		outerContext: 	WorldMorph>>displayWorldSafely
+		startpc: 	69
+		numArgs: 	0
+
+BlockClosure>>valueWithPossibleArgument:
+	Receiver: [closure] in BlockClosure>>ifError:
+	Arguments and temporary variables: 
+		anArg: 	MessageNotUnderstood: UndefinedObject>>updateIsNeeded
+	Receiver's instance variables: 
+		outerContext: 	BlockClosure>>ifError:
+		startpc: 	72
+		numArgs: 	1
+
+[] in [] in MessageNotUnderstood(Exception)>>evaluateHandlerBlock:
+	Receiver: MessageNotUnderstood: UndefinedObject>>updateIsNeeded
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		messageText: 	nil
+		tag: 	nil
+		signalContext: 	MessageNotUnderstood(Exception)>>signal
+		handlerContexts: 	an OrderedCollection(BlockClosure>>on:do:)
+		outerContext: 	nil
+		handlerBlockNotCurtailed: 	false
+		message: 	updateIsNeeded
+		receiver: 	nil
+		reachedDefaultHandler: 	false
+
+BlockClosure>>on:do:
+	Receiver: [closure] in [] in MessageNotUnderstood(Exception)>>evaluateHandlerBlock:
+	Arguments and temporary variables: 
+		exception: 	Exception
+		handlerAction: 	[closure] in [] in MessageNotUnderstood(Exception)>>evaluateHand[..]
+	Receiver's instance variables: 
+		outerContext: 	[] in MessageNotUnderstood(Exception)>>evaluateHandlerBlock:
+		startpc: 	202
+		numArgs: 	0
+
+[] in MessageNotUnderstood(Exception)>>evaluateHandlerBlock:
+	Receiver: MessageNotUnderstood: UndefinedObject>>updateIsNeeded
+	Arguments and temporary variables: 
+		aBlock: 	[closure] in BlockClosure>>ifError:
+		handlerEx: 	#(UnhandledError)
+		answer: 	nil
+	Receiver's instance variables: 
+		messageText: 	nil
+		tag: 	nil
+		signalContext: 	MessageNotUnderstood(Exception)>>signal
+		handlerContexts: 	an OrderedCollection(BlockClosure>>on:do:)
+		outerContext: 	nil
+		handlerBlockNotCurtailed: 	false
+		message: 	updateIsNeeded
+		receiver: 	nil
+		reachedDefaultHandler: 	false
+
+BlockClosure>>ifCurtailed:
+	Receiver: [closure] in MessageNotUnderstood(Exception)>>evaluateHandlerBlock:
+	Arguments and temporary variables: 
+		aBlock: 	[closure] in MessageNotUnderstood(Exception)>>evaluateHandlerBlock:
+		complete: 	nil
+		result: 	nil
+	Receiver's instance variables: 
+		outerContext: 	MessageNotUnderstood(Exception)>>evaluateHandlerBlock:
+		startpc: 	196
+		numArgs: 	0
+
+MessageNotUnderstood(Exception)>>evaluateHandlerBlock:
+	Receiver: MessageNotUnderstood: UndefinedObject>>updateIsNeeded
+	Arguments and temporary variables: 
+		aBlock: 	[closure] in BlockClosure>>ifError:
+		handlerEx: 	#(UnhandledError)
+	Receiver's instance variables: 
+		messageText: 	nil
+		tag: 	nil
+		signalContext: 	MessageNotUnderstood(Exception)>>signal
+		handlerContexts: 	an OrderedCollection(BlockClosure>>on:do:)
+		outerContext: 	nil
+		handlerBlockNotCurtailed: 	false
+		message: 	updateIsNeeded
+		receiver: 	nil
+		reachedDefaultHandler: 	false
+
+MethodContext(ContextPart)>>evaluateSignal:
+	Receiver: BlockClosure>>on:do:
+	Arguments and temporary variables: 
+		exception: 	MessageNotUnderstood: UndefinedObject>>updateIsNeeded
+		value: 	nil
+	Receiver's instance variables: 
+		sender: 	BlockClosure>>ifError:
+		pc: 	30
+		stackp: 	2
+		method: 	(BlockClosure>>#on:do: "a CompiledMethod(1589916)")
+		closureOrNil: 	nil
+		receiver: 	[closure] in WorldMorph>>displayWorldSafely
+
+MethodContext(ContextPart)>>handleSignal:
+	Receiver: BlockClosure>>on:do:
+	Arguments and temporary variables: 
+		exception: 	MessageNotUnderstood: UndefinedObject>>updateIsNeeded
+	Receiver's instance variables: 
+		sender: 	BlockClosure>>ifError:
+		pc: 	30
+		stackp: 	2
+		method: 	(BlockClosure>>#on:do: "a CompiledMethod(1589916)")
+		closureOrNil: 	nil
+		receiver: 	[closure] in WorldMorph>>displayWorldSafely
+
+MessageNotUnderstood(Exception)>>signalIn:
+	Receiver: MessageNotUnderstood: UndefinedObject>>updateIsNeeded
+	Arguments and temporary variables: 
+		aContext: 	MessageNotUnderstood(Exception)>>signal
+	Receiver's instance variables: 
+		messageText: 	nil
+		tag: 	nil
+		signalContext: 	MessageNotUnderstood(Exception)>>signal
+		handlerContexts: 	an OrderedCollection(BlockClosure>>on:do:)
+		outerContext: 	nil
+		handlerBlockNotCurtailed: 	false
+		message: 	updateIsNeeded
+		receiver: 	nil
+		reachedDefaultHandler: 	false
+
+MessageNotUnderstood(Exception)>>signal
+	Receiver: MessageNotUnderstood: UndefinedObject>>updateIsNeeded
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		messageText: 	nil
+		tag: 	nil
+		signalContext: 	MessageNotUnderstood(Exception)>>signal
+		handlerContexts: 	an OrderedCollection(BlockClosure>>on:do:)
+		outerContext: 	nil
+		handlerBlockNotCurtailed: 	false
+		message: 	updateIsNeeded
+		receiver: 	nil
+		reachedDefaultHandler: 	false
+
+UndefinedObject(Object)>>doesNotUnderstand: #updateIsNeeded
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	updateIsNeeded
+		exception: 	MessageNotUnderstood: UndefinedObject>>updateIsNeeded
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+WorldMorph>>checkIfUpdateNeeded
+	Receiver:  [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(System Browser: RSTDialectIndependencySqueak [9] Implementors of b[..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1920@1043
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	Form(1920x1043x-32)
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	nil
+		damageRecorder: 	nil
+		stepList: 	a Heap(StepMessage(#stepAt: -> Inspect: Metaclass: ProtoObject class)[..]
+		lastCycleTime: 	3803718779610
+		alarms: 	a Heap()
+		lastAlarmTime: 	3803718779410
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(200 msecs)
+		pause: 	200
+		lastCycleHadAnyEvent: 	false
+		taskbar: 	a TaskbarMorph(3633414)
+
+WorldMorph>>displayWorld
+	Receiver:  [world]
+	Arguments and temporary variables: 
+		deferredUpdateVMMode: 	nil
+		worldDamageRects: 	nil
+		handsToDraw: 	nil
+		allDamage: 	nil
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(System Browser: RSTDialectIndependencySqueak [9] Implementors of b[..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1920@1043
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	Form(1920x1043x-32)
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	nil
+		damageRecorder: 	nil
+		stepList: 	a Heap(StepMessage(#stepAt: -> Inspect: Metaclass: ProtoObject class)[..]
+		lastCycleTime: 	3803718779610
+		alarms: 	a Heap()
+		lastAlarmTime: 	3803718779410
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(200 msecs)
+		pause: 	200
+		lastCycleHadAnyEvent: 	false
+		taskbar: 	a TaskbarMorph(3633414)
+
+[] in WorldMorph>>displayWorldSafely
+	Receiver:  [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(System Browser: RSTDialectIndependencySqueak [9] Implementors of b[..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1920@1043
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	Form(1920x1043x-32)
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	nil
+		damageRecorder: 	nil
+		stepList: 	a Heap(StepMessage(#stepAt: -> Inspect: Metaclass: ProtoObject class)[..]
+		lastCycleTime: 	3803718779610
+		alarms: 	a Heap()
+		lastAlarmTime: 	3803718779410
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(200 msecs)
+		pause: 	200
+		lastCycleHadAnyEvent: 	false
+		taskbar: 	a TaskbarMorph(3633414)
+
+BlockClosure>>on:do:
+	Receiver: [closure] in WorldMorph>>displayWorldSafely
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[closure] in BlockClosure>>ifError:
+	Receiver's instance variables: 
+		outerContext: 	WorldMorph>>displayWorldSafely
+		startpc: 	69
+		numArgs: 	0
+
+
+--- The full stack ---
+UndefinedObject(Object)>>doesNotUnderstand: #currentMorphDrawingFails
+[] in WorldMorph>>displayWorldSafely
+BlockClosure>>valueWithPossibleArgument:and:
+[] in BlockClosure>>ifError:
+BlockClosure>>valueWithPossibleArgument:
+[] in [] in MessageNotUnderstood(Exception)>>evaluateHandlerBlock:
+BlockClosure>>on:do:
+[] in MessageNotUnderstood(Exception)>>evaluateHandlerBlock:
+BlockClosure>>ifCurtailed:
+MessageNotUnderstood(Exception)>>evaluateHandlerBlock:
+MethodContext(ContextPart)>>evaluateSignal:
+MethodContext(ContextPart)>>handleSignal:
+MessageNotUnderstood(Exception)>>signalIn:
+MessageNotUnderstood(Exception)>>signal
+UndefinedObject(Object)>>doesNotUnderstand: #updateIsNeeded
+WorldMorph>>checkIfUpdateNeeded
+WorldMorph>>displayWorld
+[] in WorldMorph>>displayWorldSafely
+BlockClosure>>on:do:
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+BlockClosure>>ifError:
+WorldMorph>>displayWorldSafely
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+WorldMorph>>mainLoop
+[] in WorldMorph>>runProcess
+[] in BlockClosure>>newProcess

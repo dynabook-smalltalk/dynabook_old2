@@ -1,0 +1,125 @@
+Reporting - 537 tallies, 1,010 msec.
+
+**Tree**
+--------------------------------
+Process: 40 (3805256) Morphic UI -  [world]
+--------------------------------
+93.06% (939.9 ms) [] BlockClosure>>newProcess
+  93.06% (939.9 ms) [] WorldMorph>>runProcess
+    93.06% (939.9 ms) WorldMorph>>mainLoop
+      93.06% (939.9 ms) WorldMorph>>doOneCycle
+        93.06% (939.9 ms) WorldMorph>>doOneCycleNow
+          93.06% (939.9 ms) WorldMorph>>handsDo:
+            93.06% (939.9 ms) Array(SequenceableCollection)>>do:
+              93.06% (939.9 ms) [] WorldMorph>>doOneCycleNow
+                93.06% (939.9 ms) HandMorph>>processEventQueue
+                  93.06% (939.9 ms) HandMorph>>startEventDispatch:
+                    93.06% (939.9 ms) MouseButtonEvent(MouseEvent)>>startDispatchFrom:
+                      93.06% (939.9 ms) HandMorph>>startMouseDispatch:
+                        93.06% (939.9 ms) MenuMorph>>handleFocusEvent:
+                          93.06% (939.9 ms) MenuMorph(Morph)>>dispatchEvent:
+                            93.06% (939.9 ms) MouseButtonEvent>>dispatchWith:
+                              93.06% (939.9 ms) MouseButtonEvent(MorphicEvent)>>dispatchWith:
+                                93.06% (939.9 ms) MenuMorph(Morph)>>submorphsDo:
+                                  93.06% (939.9 ms) Array(SequenceableCollection)>>do:
+                                    93.06% (939.9 ms) [] MouseButtonEvent(MorphicEvent)>>dispatchWith:
+                                      93.06% (939.9 ms) MenuItemMorph(Morph)>>dispatchEvent:
+                                        93.06% (939.9 ms) MouseButtonEvent>>dispatchWith:
+                                          93.06% (939.9 ms) MouseButtonEvent(MorphicEvent)>>dispatchWith:
+                                            93.06% (939.9 ms) MouseButtonEvent>>sendEventTo:
+                                              93.06% (939.9 ms) MenuItemMorph(Morph)>>processMouseUp:localPosition:
+                                                93.06% (939.9 ms) MenuItemMorph>>mouseButton1Up:localPosition:
+                                                  93.06% (939.9 ms) MenuItemMorph>>invokeWithEvent:
+                                                    93.06% (939.9 ms) FileListWindow class>>openFileList
+                                                      93.06% (939.9 ms) FileListWindow class(SystemWindow class)>>open:label:
+                                                        93.06% (939.9 ms) FileListWindow(SystemWindow)>>openInWorld
+                                                          93.06% (939.9 ms) FileListWindow(Morph)>>openInWorld
+                                                            93.06% (939.9 ms) FileListWindow(SystemWindow)>>openInWorld:
+                                                              93.06% (939.9 ms) WorldMorph(Morph)>>addMorph:position:
+                                                                93.06% (939.9 ms) WorldMorph(Morph)>>privateAddMorph:atIndex:position:
+                                                                  93.06% (939.9 ms) WorldMorph>>addedMorph:
+                                                                    93.06% (939.9 ms) TaskbarMorph>>wasOpened:
+                                                                      93.06% (939.9 ms) TaskbarMorph>>addButtonFor:
+                                                                        93.06% (939.9 ms) FileListWindow(Morph)>>imageForm:depth:
+                                                                          93.06% (939.9 ms) BitBltCanvas(MorphicCanvas)>>fullDraw:
+                                                                            93.06% (939.9 ms) BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                              93.06% (939.9 ms) BitBltCanvas(MorphicCanvas)>>clippingByCurrentMorphDo:
+                                                                                93.06% (939.9 ms) [] BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                  93.06% (939.9 ms) FileListWindow(Morph)>>submorphsReverseDo:
+                                                                                    93.06% (939.9 ms) Array(SequenceableCollection)>>reverseDo:
+                                                                                      93.06% (939.9 ms) [[]] BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                        93.06% (939.9 ms) BitBltCanvas(MorphicCanvas)>>fullDraw:
+                                                                                          93.06% (939.9 ms) BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                            93.06% (939.9 ms) BitBltCanvas(MorphicCanvas)>>clippingByCurrentMorphDo:
+                                                                                              93.06% (939.9 ms) [] BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                                93.06% (939.9 ms) LayoutMorph(Morph)>>submorphsReverseDo:
+                                                                                                  93.06% (939.9 ms) Array(SequenceableCollection)>>reverseDo:
+                                                                                                    93.06% (939.9 ms) [[]] BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                                      93.06% (939.9 ms) BitBltCanvas(MorphicCanvas)>>fullDraw:
+                                                                                                        93.06% (939.9 ms) BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                                          93.06% (939.9 ms) BitBltCanvas(MorphicCanvas)>>clippingByCurrentMorphDo:
+                                                                                                            93.06% (939.9 ms) [] BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                                              93.06% (939.9 ms) LayoutMorph(Morph)>>submorphsReverseDo:
+                                                                                                                93.06% (939.9 ms) Array(SequenceableCollection)>>reverseDo:
+                                                                                                                  93.06% (939.9 ms) [[]] BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                                                    93.06% (939.9 ms) BitBltCanvas(MorphicCanvas)>>fullDraw:
+                                                                                                                      93.06% (939.9 ms) BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                                                        93.06% (939.9 ms) BitBltCanvas(MorphicCanvas)>>clippingByCurrentMorphDo:
+                                                                                                                          93.06% (939.9 ms) BlockClosure>>ensure:
+                                                                                                                            93.06% (939.9 ms) [] BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                                                              93.06% (939.9 ms) HierarchicalListMorph(Morph)>>submorphsReverseDo:
+                                                                                                                                93.06% (939.9 ms) Array(SequenceableCollection)>>reverseDo:
+                                                                                                                                  93.06% (939.9 ms) [[]] BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                                                                    93.06% (939.9 ms) BitBltCanvas(MorphicCanvas)>>fullDraw:
+                                                                                                                                      93.06% (939.9 ms) BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                                                                        93.06% (939.9 ms) BitBltCanvas(MorphicCanvas)>>clippingByCurrentMorphDo:
+                                                                                                                                          93.06% (939.9 ms) [] BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                                                                            93.06% (939.9 ms) InnerHierarchicalListMorph(Morph)>>submorphsReverseDo:
+                                                                                                                                              93.06% (939.9 ms) Array(SequenceableCollection)>>reverseDo:
+                                                                                                                                                93.06% (939.9 ms) [[]] BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                                                                                  93.06% (939.9 ms) BitBltCanvas(MorphicCanvas)>>fullDraw:
+                                                                                                                                                    92.97% (939.0 ms) BitBltCanvas>>drawCurrentAndSubmorphs
+                                                                                                                                                      92.94% (938.7 ms) IndentingListItemMorph>>drawOn:
+                                                                                                                                                        92.63% (935.5 ms) FileDirectoryWrapper>>hasContents
+                                                                                                                                                          92.63% (935.5 ms) FileDirectoryWrapper>>contents
+                                                                                                                                                            92.20% (931.2 ms) DirectoryEntry>>directoryNames
+                                                                                                                                                              |92.19% (931.1 ms) DirectoryEntry>>directories
+                                                                                                                                                              |  92.14% (930.6 ms) DirectoryEntry>>children
+                                                                                                                                                              |    92.14% (930.6 ms) DirectoryEntry>>initChildren
+                                                                                                                                                              |      91.99% (929.1 ms) FileIOAccessor>>entriesIn:
+                                                                                                                                                              |        91.43% (923.4 ms) FileIOAccessor>>primLookupEntryIn:index:   -- primitive (real sender possibly omitted, see #profilerFriendlyCall:)
+                                                                                                                                                            0.34% (3.4 ms) Array(SequenceableCollection)>>collect:
+                                                                                                                                                              0.34% (3.4 ms) [] FileDirectoryWrapper>>contents
+                                                                                                                                                                0.34% (3.4 ms) DirectoryEntry>>/
+                                                                                                                                                                  0.21% (2.1 ms) String>>asPathComponents
+
+--------------------------------
+Process: 60 (2848319) Event Tickler
+--------------------------------
+6.93% (70.0 ms) [] BlockClosure>>newProcess
+  6.93% (70.0 ms) [] EventSensor>>installEventTickler
+    6.92% (69.9 ms) EventSensor>>eventTickler
+      6.92% (69.9 ms) BlockClosure>>on:do:
+        6.91% (69.8 ms) [] EventSensor>>eventTickler
+          6.86% (69.3 ms) Delay>>wait
+            6.86% (69.3 ms) BlockClosure>>ifCurtailed:
+              6.86% (69.3 ms) Semaphore>>wait   -- primitive (real sender possibly omitted, see #profilerFriendlyCall:)
+
+
+**Memory**
+ old 0 bytes
+ young 3,171,808 bytes
+ used 3,171,808 bytes
+ free -3,171,808 bytes
+
+**GCs**
+ full 0 totalling 0ms (0% uptime)
+ incr 0 totalling 0ms (0% uptime)
+ tenures 0
+ root table 0 overflows
+
+**Processes**
+	Total process switches: 1088
+	Without Profiler: 14
+	Stack page overflows: 6596
+	Stack page divorces: 18

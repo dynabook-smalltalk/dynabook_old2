@@ -1,0 +1,183 @@
+'From Cuis 5.0 [latest update: #4619] on 12 July 2021 at 1:05:19 pm'!
+Class                           code space # instances  inst space percent
+Bitmap                                1582         469      21049064    77.5
+CompiledMethod                       27999       16368       1542998     5.7
+Array                                 3571       24019       1003452     3.7
+String                               30118       25755        746654     2.7
+DateAndTime                           9960       26050        625200     2.3
+TrieNode                              2503       14657        351768     1.3
+Symbol                                5854       13407        342806     1.3
+FileEntry                             4469        6640        318720     1.2
+MethodDictionary                      2808        1178        181648     0.7
+TrieLeaf                               736       10913        174608     0.6
+ByteArray                             6490          16        153987     0.6
+WeakArray                             1208         115        120040     0.4
+DirectoryEntry                        6135        2344        112512     0.4
+Association                            937        6348        101568     0.4
+ClassOrganizer                        1826        1166         37312     0.1
+Point                                 7018        1769         28304     0.1
+IndentingListItemMorph                3412         275         27500     0.1
+Metaclass                             4300         589         21204
+PluggableButtonMorph                  5160         123         12792
+Form                                 27501         426         11928
+QSystemTally                          3342         287         11480
+MorphicTranslation                    3241         717         11472
+SpaceTallyItem                         859         466         11184
+Color                                24808         551         11020
+MessageNode                          18292         161         10304
+Dictionary                            6317         564          9024
+Pragma                                2254         405          8100
+FileDirectoryWrapper                   585         275          7700
+BlockNode                            10026          82          6888
+RemoteString                          1523         425          6800
+InstanceVariableNode                   588         203          6496
+OrderedCollection                     5534         310          6200
+Interval                              2696         304          6080
+TempVariableNode                      4112          83          5312
+TextLine                              2278         110          5280
+AdditionalMethodState                 3884         420          4980
+Rectangle                             7232         277          4432
+DraggeableButtonMorph                  502          38          4256
+WindowEdgeAdjustingMorph              1688          56          3808
+ScrollBar                             4666          38          3800
+ReadOnlyVariableBinding                543         214          3424
+StrikeFont                            9458          41          2952
+SelectorNode                          1577         103          2884
+LayoutSpec                            4279          80          2560
+MethodContext                         4669         157          2376
+MenuItemMorph                         4873          24          2304
+WidgetMorph                           2601          44          2288
+RunArray                              3968          67          2144
+Text                                 10334         124          1984
+IdentityDictionary                     292         124          1984
+SpecialSelectorNode                    190          64          1792
+Parser                               20683          16          1792
+VariableNode                          4495          47          1504
+EncoderForV3PlusClosures             10981          16          1472
+LayoutMorph                          14190          21          1428
+MessageSend                           1414          65          1300
+LinkedList                            1277          81          1296
+LeafNode                               950          45          1260
+TextReplaceCommand                     639          55          1100
+InnerTextMorph                        8820          11          1100
+MethodNode                           10657          16          1088
+RunNotArray                            986          57          1048
+PluggableListMorph                    9868           7           924
+LayoutAdjustingMorph                  1221          16           896
+WeakMessageSend                       2277          73           876
+WriteStream                           3949          33           792
+Preference                             840          22           792
+HoverableButtonMorph                   321           7           784
+Semaphore                             1415          39           780
+TextModelMorph                        5032          10           760
+ReturnNode                            1372          32           640
+SmalltalkEditor                      26771           9           612
+CharacterBlock                        1104          21           588
+DebuggerMethodMap                     3283          16           576
+AssignmentNode                        1750          24           576
+BlockClosure                          9238          60           568
+DynamicTypingSmalltalkCompleter         325          10           560
+ContentPack                           3242          34           544
+LiteralNode                           1388          19           532
+TextComposition                       4395          11           484
+InnerListMorph                        2992           7           476
+LiteralVariableNode                   1385          11           440
+TranslucentColor                      1501          16           384
+PluggableTextModel                    1793           9           360
+WeakKeyAssociation                     620          22           352
+CursorWithMask                         816          11           352
+WeakActionSequence                     749          16           348
+SHRange                                713          17           340
+ReadStream                            1005          16           320
+Set                                   3690          17           272
+LiteralDictionary                      208          17           272
+ReadWriteStream                        809          11           264
+MenuLineMorph                          385           5           260
+TextFontFamilyAndSize                  808          16           256
+Process                               6579           8           256
+StandardFileStream                    9911           6           240
+SHTextStylerST80                      4921           6           240
+Mutex                                  313          15           240
+EmptyLine                              230           4           208
+LargePositiveInteger                  4394           4           187
+SimpleServiceEntry                    2294           3           180
+LargeNegativeInteger                  2081           2           153
+SHParserST80                         16741           2           152
+MenuMorph                            10426           2           152
+InspectorWindow                       3203           2           136
+BitBltCanvasEngine                    2923           2           136
+TextEditor                           19950           2           128
+LabelMorph                            2184           2           128
+HierarchicalListMorph                 7110           1           124
+WorldMorph                           13001           1           108
+StepMessage                            680           3           108
+ShoutTextEmphasis                       53           9           108
+TextAlignment                          683           8            96
+HandMorph                             9946           1            96
+BitBltCanvas                          8721           2            96
+BrowserCommentTextMorph                500           1            88
+TextEmphasis                          1275           7            84
+ShoutTextColor                          53           7            84
+UpdatingLabelMorph                     887           1            76
+TaskbarMorph                          2758           1            76
+TranscriptMorph                       2356           1            72
+Heap                                  4084           3            72
+Delay                                 4025           3            72
+BrowserWindow                        10802           1            72
+WorkspaceWindow                        437           1            68
+TranscriptWindow                       602           1            68
+SystemWindow                         13699           1            68
+FileListWindow                        2380           1            68
+BitBlt                                9215           1            68
+BoxedFloat64                          2945           4            64
+TextColor                             1323           5            60
+Browser                              20104           1            60
+SharedQueue                           1660           2            56
+ProgressInitiationException           1672           1            56
+Inspector                             5783           2            56
+FileList                             11844           1            56
+BraceNode                             2762           2            56
+InnerHierarchicalListMorph            1584           1            52
+WeakIdentityKeyDictionary              360           3            48
+MethodChangeRecord                     839           2            48
+Duration                              4538           3            48
+CascadeNode                           1557           2            48
+AndreasSystemProfiler                 5606           1            48
+EventSensor                           5748           1            44
+ChangeSet                            23210           1            44
+Workspace                             3079           1            40
+WeakSet                               1910           2            40
+MouseButtonEvent                      1079           1            40
+ClassChangeRecord                     3152           1            36
+CharacterSet                          1063           3            36
+SystemDictionary                     63350           1            32
+CursorWithAlpha                        617           1            32
+SystemVersion                         1454           1            28
+DisplayScreen                         4615           1            28
+TextModel                             3500           1            24
+ShoutTextBackgroundColor                53           2            24
+Object                               21677           3            24
+MouseOverHandler                       601           1            24
+WeakIdentitySet                        311           1            20
+TimeZone                              1125           1            20
+SystemOrganizer                       1783           1            20
+WeakRegistry                          1414           1            16
+TheWorldMenu                          8648           1            16
+SystemChangeNotifier                  1814           1            16
+StrikeFontFamily                        56           1            16
+ProcessorScheduler                    3806           1            16
+IdentitySet                            306           1            16
+Fraction                              5375           1            16
+Float64Array                          1520           1            16
+FileIOAccessor                        6269           1            16
+Date                                  5084           1            16
+DamageRecorder                         838           1            16
+CuisSourceFileArray                   1390           1            16
+Trie                                  1850           1            12
+SpaceTally                            3568           1            12
+UndefinedObject                       2346           1             8
+True                                  1083           1             8
+False                                 1086           1             8
+BrightColorTheme                         0           1             8
+
+Total                              1908921      160692      27172609   100.0

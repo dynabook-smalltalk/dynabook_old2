@@ -1,0 +1,8 @@
+80 (4059717) Delay Scheduling
+60 (2934106) User interrupt watcher
+60 (1098968) Background Screen updater
+60 (2848319) Event Tickler
+60 (2117435) Low Space Watcher
+50 (3268564) WeakArray finalization
+40 (3805256) Morphic UI -  [world]
+10 (1967214) Idle Process

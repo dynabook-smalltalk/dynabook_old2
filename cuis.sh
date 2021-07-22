@@ -1,3 +1,4 @@
 #!/bin/bash
-cd Cuis-Smalltalk
-Squeak.app/Contents/MacOS/Squeak Cuis-Smalltalk-Dev/Cuis5.0-????.image
+
+# Macs are bad
+sqvm/sqcogspur64linux/squeak Cuis5.0-????.image

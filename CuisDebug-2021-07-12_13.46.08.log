@@ -1,0 +1,267 @@
+MessageNotUnderstood: UndefinedObject>>methodsFor:stamp:
+12 July 2021 1:46:08.55811 pm
+
+VM: unix - Open Smalltalk Cog[Spur] VM [CoInterpreterPrimitives VMMaker.oscog-nice.2715]
+Image: Cuis 5.0 [latest update: #4619]
+
+UndefinedObject(Object)>>doesNotUnderstand: #methodsFor:stamp:
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	methodsFor: ('*bytesurgeon') stamp: ('md 6/16/2005 13:58')
+		exception: 	MessageNotUnderstood: UndefinedObject>>methodsFor:stamp:
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+Compiler>>evaluateMethod:to:logged:profiled:
+	Receiver: a Compiler
+	Arguments and temporary variables: 
+		method: 	(UndefinedObject>>#DoIt "a CompiledMethod(3093330)")
+		receiver: 	nil
+		doLog: 	false
+		doProfile: 	false
+		toLog: 	nil
+		itsSelection: 	nil
+		itsSelectionString: 	nil
+		value: 	#(nil)
+	Receiver's instance variables: 
+		sourceStream: 	a ReadStream 'RBDoItNode methodsFor: ''*bytesurgeon'' stamp: ''md[..]
+		requestor: 	nil
+		class: 	UndefinedObject
+		category: 	nil
+		context: 	nil
+		parser: 	a Parser
+
+Compiler>>evaluate:in:to:notifying:ifFail:logged:profiled:
+	Receiver: a Compiler
+	Arguments and temporary variables: 
+		textOrStream: 	'RBDoItNode methodsFor: ''*bytesurgeon'' stamp: ''md 6/16/2005 13[..]
+		aContext: 	nil
+		aReceiver: 	nil
+		aRequestor: 	nil
+		failBlock: 	[closure] in Compiler class>>evaluate:for:notifying:logged:
+		doLog: 	false
+		doProfile: 	false
+		methodNode: 	DoIt
+	^ RBDoItNode
+		methodsFor: '*bytesurgeon'
+		stamp: 'md 6/16/2[..]
+		method: 	(UndefinedObject>>#DoIt "a CompiledMethod(3093330)")
+		c: 	nil
+	Receiver's instance variables: 
+		sourceStream: 	a ReadStream 'RBDoItNode methodsFor: ''*bytesurgeon'' stamp: ''md[..]
+		requestor: 	nil
+		class: 	UndefinedObject
+		category: 	nil
+		context: 	nil
+		parser: 	a Parser
+
+Compiler class>>evaluate:for:notifying:logged:
+	Receiver: Compiler
+	Arguments and temporary variables: 
+		textOrString: 	'RBDoItNode methodsFor: ''*bytesurgeon'' stamp: ''md 6/16/2005 13[..]
+		anObject: 	nil
+		aRequestor: 	nil
+		logFlag: 	false
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#compile:in:classified:notifying:ifFail:->(Compi[..]
+		format: 	65542
+		instanceVariables: 	#('sourceStream' 'requestor' 'class' 'category' 'context' 'p[..]
+		organization: 	('public access' compile:in:classified:notifying:ifFail: compile:[..]
+		subclasses: 	#(OMeta2Compiler)
+		name: 	#Compiler
+		classPool: 	nil
+		sharedPools: 	nil
+
+Compiler class>>evaluate:for:logged:
+	Receiver: Compiler
+	Arguments and temporary variables: 
+		textOrString: 	'RBDoItNode methodsFor: ''*bytesurgeon'' stamp: ''md 6/16/2005 13[..]
+		anObject: 	nil
+		logFlag: 	false
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#compile:in:classified:notifying:ifFail:->(Compi[..]
+		format: 	65542
+		instanceVariables: 	#('sourceStream' 'requestor' 'class' 'category' 'context' 'p[..]
+		organization: 	('public access' compile:in:classified:notifying:ifFail: compile:[..]
+		subclasses: 	#(OMeta2Compiler)
+		name: 	#Compiler
+		classPool: 	nil
+		sharedPools: 	nil
+
+Compiler class>>evaluate:logged:
+	Receiver: Compiler
+	Arguments and temporary variables: 
+		textOrString: 	'RBDoItNode methodsFor: ''*bytesurgeon'' stamp: ''md 6/16/2005 13[..]
+		logFlag: 	false
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#compile:in:classified:notifying:ifFail:->(Compi[..]
+		format: 	65542
+		instanceVariables: 	#('sourceStream' 'requestor' 'class' 'category' 'context' 'p[..]
+		organization: 	('public access' compile:in:classified:notifying:ifFail: compile:[..]
+		subclasses: 	#(OMeta2Compiler)
+		name: 	#Compiler
+		classPool: 	nil
+		sharedPools: 	nil
+
+[] in StandardFileStream(PositionableStream)>>compileNextChunkWhenStartsWithExclamationMark
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt2/dynabook/ByteSurge[..]
+	Arguments and temporary variables: 
+		chunk: 	'RBDoItNode methodsFor: ''*bytesurgeon'' stamp: ''md 6/16/2005 13:58'''
+	Receiver's instance variables: 
+
+
+BlockClosure>>on:do:
+	Receiver: [closure] in StandardFileStream(PositionableStream)>>compileNextChunkWhenStartsWithExclama[..]
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[closure] in StandardFileStream(PositionableStream)>>evaluate:pr[..]
+	Receiver's instance variables: 
+		outerContext: 	StandardFileStream(PositionableStream)>>compileNextChunkWhenStart[..]
+		startpc: 	151
+		numArgs: 	0
+
+StandardFileStream(PositionableStream)>>evaluate:printingErrorWith:
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt2/dynabook/ByteSurge[..]
+	Arguments and temporary variables: 
+		aBlock: 	[closure] in StandardFileStream(PositionableStream)>>compileNextChunkWh[..]
+		chunk: 	'RBDoItNode methodsFor: ''*bytesurgeon'' stamp: ''md 6/16/2005 13:58'''
+	Receiver's instance variables: 
+
+
+StandardFileStream(PositionableStream)>>compileNextChunkWhenStartsWithExclamationMark
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt2/dynabook/ByteSurge[..]
+	Arguments and temporary variables: 
+		chunk: 	'RBDoItNode methodsFor: ''*bytesurgeon'' stamp: ''md 6/16/2005 13:58'''
+	Receiver's instance variables: 
+
+
+StandardFileStream(PositionableStream)>>compileNextChunk
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt2/dynabook/ByteSurge[..]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+
+
+[] in StandardFileStream(PositionableStream)>>compileNextChunkHandlingExceptions
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt2/dynabook/ByteSurge[..]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+
+
+BlockClosure>>on:do:
+	Receiver: [closure] in StandardFileStream(PositionableStream)>>compileNextChunkHandlingExceptions
+	Arguments and temporary variables: 
+		exception: 	InMidstOfFileinNotification, UndeclaredVariableWarning, PoolDefiniti[..]
+		handlerAction: 	[closure] in StandardFileStream(PositionableStream)>>compileNext[..]
+	Receiver's instance variables: 
+		outerContext: 	StandardFileStream(PositionableStream)>>compileNextChunkHandlingE[..]
+		startpc: 	85
+		numArgs: 	0
+
+StandardFileStream(PositionableStream)>>compileNextChunkHandlingExceptions
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt2/dynabook/ByteSurge[..]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+
+
+StandardFileStream(PositionableStream)>>fileInInformingTo:
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt2/dynabook/ByteSurge[..]
+	Arguments and temporary variables: 
+		barBlock: 	[closure] in ProgressInitiationException>>defaultAction
+	Receiver's instance variables: 
+
+
+[] in StandardFileStream(PositionableStream)>>fileInAnnouncing:
+	Receiver: StandardFileStream: '/run/media/grahamkelly/MyDriveLinux/Projects/DbSt2/dynabook/ByteSurge[..]
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+
+
+ProgressInitiationException>>defaultAction
+	Receiver: ProgressInitiationException
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		messageText: 	nil
+		tag: 	nil
+		signalContext: 	ProgressInitiationException(Exception)>>signal
+		handlerContexts: 	an OrderedCollection()
+		outerContext: 	nil
+		handlerBlockNotCurtailed: 	nil
+		workBlock: 	[closure] in StandardFileStream(PositionableStream)>>fileInAnnouncin[..]
+		maxVal: 	174966
+		minVal: 	0
+		aPoint: 	1871@171
+		progressTitle: 	'Loading source.st'
+		currentVal: 	954
+
+UndefinedObject>>handleSignal:
+	Receiver: nil
+	Arguments and temporary variables: 
+		exception: 	ProgressInitiationException
+	Receiver's instance variables: 
+nil
+
+--- The full stack ---
+UndefinedObject(Object)>>doesNotUnderstand: #methodsFor:stamp:
+UndefinedObject>>DoIt
+Compiler>>evaluateMethod:to:logged:profiled:
+Compiler>>evaluate:in:to:notifying:ifFail:logged:profiled:
+Compiler class>>evaluate:for:notifying:logged:
+Compiler class>>evaluate:for:logged:
+Compiler class>>evaluate:logged:
+[] in StandardFileStream(PositionableStream)>>compileNextChunkWhenStartsWithExclamationMark
+BlockClosure>>on:do:
+StandardFileStream(PositionableStream)>>evaluate:printingErrorWith:
+StandardFileStream(PositionableStream)>>compileNextChunkWhenStartsWithExclamationMark
+StandardFileStream(PositionableStream)>>compileNextChunk
+[] in StandardFileStream(PositionableStream)>>compileNextChunkHandlingExceptions
+BlockClosure>>on:do:
+StandardFileStream(PositionableStream)>>compileNextChunkHandlingExceptions
+StandardFileStream(PositionableStream)>>fileInInformingTo:
+[] in StandardFileStream(PositionableStream)>>fileInAnnouncing:
+ProgressInitiationException>>defaultAction
+UndefinedObject>>handleSignal:
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ProgressInitiationException(Exception)>>signalIn:
+ProgressInitiationException(Exception)>>signal
+ProgressInitiationException>>display:at:from:to:during:
+ProgressInitiationException class>>display:at:from:to:during:
+String>>displayProgressAt:from:to:during:
+StandardFileStream(PositionableStream)>>fileInAnnouncing:
+StandardFileStream(FileStream)>>fileIn
+[] in ChangeSet class>>fileIn:
+[] in FileEntry>>readStreamDo:
+BlockClosure>>ensure:
+FileEntry>>readStreamDo:
+ChangeSet class>>fileIn:
+SimpleServiceEntry>>performService
+PluggableButtonMorph>>performAction
+PluggableButtonMorph>>mouseButton1Up:localPosition:
+PluggableButtonMorph(Morph)>>processMouseUp:localPosition:
+MouseButtonEvent>>sendEventTo:
+PluggableButtonMorph(Morph)>>handleFocusEvent:
+HandMorph>>startMouseDispatch:
+MouseButtonEvent(MouseEvent)>>startDispatchFrom:
+HandMorph>>startEventDispatch:
+HandMorph>>processEventQueue
+[] in WorldMorph>>doOneCycleNow
+Array(SequenceableCollection)>>do:
+WorldMorph>>handsDo:
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+WorldMorph>>mainLoop
+[] in WorldMorph>>runProcess
+[] in BlockClosure>>newProcess
