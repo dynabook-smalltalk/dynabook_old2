@@ -1,3 +1,12 @@
+# Dynabook Smalltalk
+Disclaimer: Dynabook Smalltalk is NOT affiliated with Dynabook, Inc
+
+
+# TODO
+
+
+## Cuis README Follows
+
 [![Build Status](https://travis-ci.org/Cuis-Smalltalk/Cuis-Smalltalk-Dev.svg?branch=master)](https://travis-ci.org/Cuis-Smalltalk/Cuis-Smalltalk-Dev)
 
 # Table of Contents
