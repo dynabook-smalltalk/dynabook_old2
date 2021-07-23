@@ -2,8 +2,16 @@
 Disclaimer: Dynabook Smalltalk is NOT affiliated with Dynabook, Inc
 
 
-# TODO
+# Why?
+Because:
+* Cuis: evolves too fast
+* Squeak: evolves too slow
+* Pharo: requires a MOOC
+* Frank: aka "Proprietary Smalltalk"
+* Haver: Hg Hggg
 
+
+# TODO
 
 ## Cuis README Follows
 
